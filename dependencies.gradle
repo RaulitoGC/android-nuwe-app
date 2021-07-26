@@ -2,7 +2,7 @@ ext {
     // Android Project Config
     applicationId = "com.rguzmanc.nuwe"
     compileVersion = 30
-    buildToolsVersion = "31.0.0"
+    buildToolsVersion = "30.0.3"
     minVersion = 23
     targetVersion = 30
 
