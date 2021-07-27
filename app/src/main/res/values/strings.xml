@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Nuwe App</string>
+
+    <!-- Login -->
+    <string name="login_hint_username">Usuario o correo</string>
+    <string name="login_hint_password">Contraseña</string>
+    <string name="login_text_forgot_password">¿Has olvidado la contraseña?</string>
+    <string name="login_button">INICIAR SESIÓN</string>
+    <string name="login_text_without_account">Todavía no tienes cuenta?</string>
+    <string name="login_text_sign_up">Regístrate</string>
+
+    <!-- Sign Up -->
+    <string name="sign_up_hint_name">Nombre público de usuario</string>
+    <string name="sign_up_hint_full_name">Nombre completo</string>
+    <string name="sign_up_hint_email">Correo electrónico</string>
+    <string name="sign_up_hint_password">Contraseña</string>
+    <string name="sign_up_hint_repeat_password">Repetir constraseña</string>
+    <string name="sign_up_button_create_account">CREAR MI CUENTA</string>
+    <string name="sign_up_text_with_account">¿Ya tienes cuenta?</string>
+    <string name="sign_up_text_login">Inicia Sesión</string>
+
+    <!-- Verification -->
+    <string name="verification_text_account">VERIFICACIÓN DE CUENTA</string>
+    <string name="verification_text_description">Te hemos envíado un código a tu correo a modo de validación. Introduce el código a continuación para verificar que es tu cuenta.</string>
+    <string name="verification_button_go_to_nuwe">VAMOS A NUWE</string>
+
+    <!-- Common -->
+    <string name="all_authentication_text_description">Empoyering tech amazing individuals to shine trough hackathons, talks &amp; challenges</string>
+
 </resources>

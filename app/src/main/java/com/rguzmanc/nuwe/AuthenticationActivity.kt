@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.rguzmanc.nuwe.databinding.ActivityAuthBinding
 
 class AuthenticationActivity: AppCompatActivity() {
 
@@ -13,7 +14,12 @@ class AuthenticationActivity: AppCompatActivity() {
         }
     }
 
+    private lateinit var binding: ActivityAuthBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityAuthBinding.inflate(layoutInflater)
+        val root = binding.root
+        setContentView(root)
     }
 }
