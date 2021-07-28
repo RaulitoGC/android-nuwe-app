@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text Input Edit Text -->
+    <style name="Widget.Nuwe.TextInputEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:inputType">textVisiblePassword</item>
+        <item name="android:background">@drawable/background_text_input_layout</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="Widget.Nuwe.TextInputEditTextCode" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@color/paper</item>
+        <item name="android:backgroundTintMode">src_in</item>
+    </style>
+
+    <!-- Text View -->
+    <style name="Widget.Nuwe.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <!-- Button -->
+    <style name="Widget.Nuwe.IconButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">@dimen/button_icon_size</item>
+        <item name="android:layout_height">@dimen/button_icon_size</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="backgroundTint">@color/paper</item>
+        <item name="backgroundTintMode">src_over</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">0dp</item>
+        <item name="iconTintMode">multiply</item>
+    </style>
+
+</resources>

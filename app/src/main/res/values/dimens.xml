@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_input_edit_text_height">44dp</dimen>
+    <dimen name="button_icon_size">50dp</dimen>
+</resources>
