@@ -10,8 +10,13 @@
         <item name="colorSecondaryVariant">@color/secondaryDark</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/backgroundDark</item>
         <!-- Customize your theme here. -->
+
+        <item name="editTextStyle">@style/Widget.Nuwe.TextInputEditText</item>
+        <item name="android:textViewStyle">@style/Widget.Nuwe.TextView</item>
+        <item name="android:colorBackground">@color/backgroundDark</item>
+
     </style>
 
     <style name="AppTheme.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">

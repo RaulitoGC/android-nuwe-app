@@ -16,4 +16,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="background_splash">@color/backgroundDark</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color">@color/primaryMain</color>
 </resources>

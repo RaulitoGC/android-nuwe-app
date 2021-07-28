@@ -36,6 +36,7 @@ dependencies {
     implementation rootProject.ext.dataDependencies
     kapt rootProject.ext.roomCompiler
 
+    implementation platform("com.google.firebase:firebase-bom:$rootProject.ext.firebaseBoomVersion")
     api project(":domain")
 
     testImplementation rootProject.ext.unitTestDependencies
